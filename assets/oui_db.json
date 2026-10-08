@@ -1,0 +1,53 @@
+{
+  "oui": {
+    "4C:BD:8F": {"vendor": "Hikvision", "cat": "camera"},
+    "54:C4:15": {"vendor": "Hikvision", "cat": "camera"},
+    "BC:AD:28": {"vendor": "Hikvision", "cat": "camera"},
+    "C0:56:E3": {"vendor": "Hikvision", "cat": "camera"},
+    "44:19:B6": {"vendor": "Hikvision", "cat": "camera"},
+    "28:57:BE": {"vendor": "Hikvision", "cat": "camera"},
+    "A4:14:37": {"vendor": "Hikvision", "cat": "camera"},
+    "18:68:CB": {"vendor": "Hikvision", "cat": "camera"},
+    "24:28:FD": {"vendor": "Hikvision", "cat": "camera"},
+    "2C:A5:9C": {"vendor": "Hikvision", "cat": "camera"},
+    "3C:EF:8C": {"vendor": "Dahua", "cat": "camera"},
+    "4C:11:BF": {"vendor": "Dahua", "cat": "camera"},
+    "90:02:A9": {"vendor": "Dahua", "cat": "camera"},
+    "A0:BD:1D": {"vendor": "Dahua", "cat": "camera"},
+    "E0:50:8B": {"vendor": "Dahua", "cat": "camera"},
+    "9C:14:63": {"vendor": "Dahua", "cat": "camera"},
+    "38:AF:29": {"vendor": "Dahua", "cat": "camera"},
+    "14:A7:8B": {"vendor": "Dahua", "cat": "camera"},
+    "BC:32:5F": {"vendor": "Dahua", "cat": "camera"},
+    "00:40:8C": {"vendor": "Axis Communications", "cat": "camera"},
+    "AC:CC:8E": {"vendor": "Axis Communications", "cat": "camera"},
+    "B8:A4:4F": {"vendor": "Axis Communications", "cat": "camera"},
+    "EC:71:DB": {"vendor": "Reolink", "cat": "camera"},
+    "9C:8E:CD": {"vendor": "Amcrest", "cat": "camera"},
+    "2C:AA:8E": {"vendor": "Wyze Labs", "cat": "camera"},
+    "7C:78:B2": {"vendor": "Wyze Labs", "cat": "camera"},
+    "D0:3F:27": {"vendor": "Wyze Labs", "cat": "camera"},
+    "00:02:D1": {"vendor": "Vivotek", "cat": "camera"},
+    "00:03:C5": {"vendor": "Mobotix", "cat": "camera"}
+  },
+  "camera_name": "(^|[^a-z0-9])(ipc|ipcam|ip[-_ ]?cam|cam|camera|hikvision|hik|dahua|ezviz|tapo|reolink|wyze|arlo|eufy|yi[-_ ]?home|icsee|v380|xmeye|nvr|dvr|spycam|minicam|hdcam)([^a-z0-9]|$)",
+  "camera_ap": "^(hd|mv|ip|a9|q9)[-_]?[0-9a-f]{4,8}$",
+  "radar_name": "(radar|mmwave|ld24[0-9]{2}|hlk|presence|c1001)",
+  "bt_audio_name": "(airpods|buds|headset|headphone|earbud|speaker|jbl|bose|soundcore|wh-|wf-|beats)",
+  "lan_http_kw": "(hikvision|dnvrs|app-webs|uc-httpd|ipcam|netwave|dahua|avtech|foscam|amcrest|reolink|axis|onvif|camera|dvr|nvr|webcam|mjpg)",
+  "tracker_uuids": {
+    "feed": "Tile",
+    "fd84": "Tile",
+    "fd5a": "Samsung SmartTag",
+    "fe65": "Chipolo"
+  },
+  "mfg": {
+    "0": "Ericsson", "1": "Nokia", "2": "Intel", "6": "Microsoft", "13": "Texas Instruments",
+    "15": "Broadcom", "76": "Apple", "87": "Garmin", "89": "Nordic Semiconductor",
+    "117": "Samsung", "224": "Google", "301": "Sony"
+  },
+  "lan_ports": {
+    "80": "HTTP", "443": "HTTPS", "554": "RTSP video stream", "8000": "Hikvision SDK",
+    "8080": "HTTP (alt)", "8554": "RTSP (alt)", "34567": "DVR/XM protocol", "37777": "Dahua DVR/camera"
+  }
+}

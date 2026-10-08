@@ -1,0 +1,21 @@
+name: signal_radar
+description: Passive radar view of nearby Wi-Fi, BLE and LAN devices.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  wifi_scan: ^0.4.1
+  flutter_blue_plus: ^1.32.12
+  permission_handler: ^11.3.1
+  path_provider: ^2.1.3
+  network_info_plus: ^5.0.3
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/oui_db.json
