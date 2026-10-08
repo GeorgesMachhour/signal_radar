@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import '../models/signal_device.dart';
 import '../services/scanner_service.dart';
 import 'details_sheet.dart';
 

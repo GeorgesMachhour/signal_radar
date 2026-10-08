@@ -54,7 +54,7 @@ class _RadarPageState extends State<RadarPage> with SingleTickerProviderStateMix
                     final size = Size(box.maxWidth, box.maxHeight);
                     return GestureDetector(
                       onTapUp: (t) {
-                        final hit = RadarPainter.hitTest(devs, size, _range, t.localPosition);
+                        final hit = RadarPainter.hitDevice(devs, size, _range, t.localPosition);
                         if (hit != null) showDeviceSheet(context, widget.svc, hit);
                       },
                       child: CustomPaint(size: size, painter: RadarPainter(devs, _range, _ctrl.value)),

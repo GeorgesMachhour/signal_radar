@@ -23,7 +23,7 @@ class RadarPainter extends CustomPainter {
     return c + Offset(cos(a), sin(a)) * (r * frac);
   }
 
-  static SignalDevice? hitTest(List<SignalDevice> ds, Size size, double range, Offset p) {
+  static SignalDevice? hitDevice(List<SignalDevice> ds, Size size, double range, Offset p) {
     final c = size.center(Offset.zero);
     final r = size.shortestSide / 2 - 10;
     SignalDevice? best;
